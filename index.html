@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Nick Long Resume</title>
+	</head>
+	<body>
+		<style>
+	body {
+		background-color:rgb(243, 240, 234);
+		font-family: monospace;
+	}
+	#contact {
+		text-align: center;
+	}
+	h2 {
+		font-style: italic;
+	}
+	.collapsible {
+		cursor: pointer;
+		width: 100%;
+		border: none;
+		text-align: left;
+		outline: none;
+	}
+	.active, .collapsible:hover {
+	}
+	.content {
+		padding: 0 5px;
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.25s ease-out;
+	}
+
+		</style>
+		<h1 id="contact">Nicholas C. Long<br>3222 NW 54th ST Apt B24<br>Seattle, WA 98107<br>614-325-2406<br><a href="mailto:logan.nichols@gmail.com">logan.nichols@gmail.com</a></h1>
+		<h2 class="collapsible">Professional Experience</h2>
+		<div class="content">
+			<ul id="jobs">
+				<li id="fud">Restaurants<br>
+					<ul id="cook">
+						<li>Crafting meals to order</li>
+						<li>Maintaining Equipment for both appearance and performance</li>
+                        <li>Exploring flavor combinations like a rogue alchemist</li>
+                        <li>Analyzing and Prioritizing on the basis of complexity in real time</li>
+					</ul>
+				</li>
+				<li id="airWaves">Radio<br>
+					<ul id="proder">
+						<li>Production Assistant for local call-in talk show on NPR affliate in Columbus Ohio</li>
+						<li>Freelance Producer for NPR affliate in Dayton Ohio</li>
+					</ul>
+				</li>
+				<li id="liluns">Teaching<br>
+					<ul id="teach">
+						<li>Assisting in creating an environment of learning for 2-4 year olds in a Montessori setting</li>
+					</ul>	
+				</li>
+				<li id="growem">Farming<br>
+					<ul id="vegs">
+						<li>Feeding chickens and collecting eggs</li>
+						<li>Cultivating a wide variety of vegetables over a three acre plot</li>
+						<li>Feeding and caring for pigs</li>
+						<li>Packaging produce for 45 local families weekly</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<h2 class="collapsible">Volunteer Experience</h2>
+		<div class="content">
+			<ul id="volt">
+				<li id="artWork">Pan-Eros<br>
+					<ul id="eros">
+						<li>Managing Security team for internationally renowned Art Festival</li>
+						<li>Cataloging Foundation Art</li>
+						<li>Training and tasking Volunteers</li>
+					</ul>
+					<li id="olymps">Special Olympics<br>
+						<ul id="coach">
+							<li>Coaching: Basketball Individual Skills Training, Swimming, and Softball</li>
+							<li>Participating as a Unified Partner: Swimming, Softball</li>
+							<li>Annoucing: Basketball</li>
+						</ul>
+					</li>
+			</ul>
+		</div>
+		<h2 class="collapsible">References</h2>
+		<div class="content">
+			<ul id="refs">
+				<li id="refsSophia">Sophia Iannicelli<br><p id="frankie">Director, <a href="http//:www.pan-eros.org">Pan-Eros Foundation</a>, <a href="mailto:director@seattleerotic.org">director@seattleerotic.org</a></p></li>
+				<li id="refsMike">Mike Thompson<br><p id="toms">News Director, <a href="https//:www.wosu.org">WOSU Public Media</a>, <a href="mailto:mike.thompson@wosu.org">mike.thompson@wosu.org</a></p></li>
+				<li id="refsChefs">Andre Decker/Colleen Carrol<br><p id="chiefs">Andre is the Head Chef for Daniel's Broiler Downtown. <a href="mailto:adecker@schwartzbros.com">adecker@schwartzbros.com</a><br>Colleen is the Head Chef for Daniel's Broiler Leschi. <a href="mailto:ccarrol@schwartzbros.com">ccarrol@schwartzbros.com</a></p></li>
+			</ul>
+		</div>
+		<h2 class="collapsible">Education</h2>
+		<div class="content">
+			<ul id="knows">
+				<li id="learn">Ohio State<br><p id="deg">In December of 2007, I graduated with a B.A. in English with a minor in theatre</p></li>
+				<li id="cud">Khan Academy<br><p id="KHAN">Online Computer Programming course covering the basics of HTML, CSS, Java, and SQL</p></li>
+			</ul>
+		</div>
+		<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.maxHeight){
+					content.style.maxHeight = null;
+				} else {
+					content.style.maxHeight = content.scrollHeight + "px";
+				}
+			});
+		}
+		</script>
+	</body>
+</html>
