@@ -16,7 +16,7 @@ a {
 
 header {
     padding: 35px 35px;
-    background-color: linen;
+    background-color: darkolivegreen;
 }
 
 header h1 {
@@ -123,7 +123,7 @@ section {
 }
 
 .blog-post {
-    width: 120px;
+    width: 1200px;
     margin: 0 auto 30px auto;
     background: #BBEFEF;
     overflow: auto;
