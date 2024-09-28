@@ -73,7 +73,7 @@ header a {
 }
 
 .intro {
-    background-image: url("Background.jpg");
+    background-image: url("https://raw.githubusercontent.com/NickLong85/LiNC/refs/heads/master/Background.jpg");
     height: 475px;
     position: center;
     background-repeat: no-repeat;
