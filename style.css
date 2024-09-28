@@ -33,7 +33,7 @@ header a {
     color: #082D49;
 }
 
-button {
+.button {
     background-color: #082D49;
     font-family: Verdana;
     color: white;
@@ -47,7 +47,7 @@ button {
     margin-left: 650px;
 }
 
-button:hover {
+.button:hover {
     background-color: #031119;
     font-family: Verdana;
     color: white;
@@ -61,18 +61,18 @@ button:hover {
     margin-left: 650px;
 }
 
-linkedin {
+.linkedin {
     position: absolute;
     cursor: pointer;
     margin-left: 70px;
     margin-top: 3px;
 }
 
-linkedin:hover {
+.linkedin:hover {
     filter: contrast(200%) brightness(40%);
 }
 
-intro {
+.intro {
     background-image: url("https://raw.githubusercontent.com/NickLong85/LiNC/refs/heads/master/Background.jpg");
     height: 475px;
     position: center;
@@ -82,7 +82,7 @@ intro {
     padding-right: 150px;
 }
 
-intro img {
+.intro img {
     border-radius: 50%;
     float: left;
     display: inline-block;
@@ -90,12 +90,12 @@ intro img {
     margin-bottom: 100px;
 }
 
-intro {
+.intro {
     color: #ffffff;
     text-align: left;
 }
 
-intro p {
+.intro p {
     line-height: 1.7;
     color: #ffffff;
     width: 80%;
@@ -109,7 +109,7 @@ section {
     padding: 60px;
 }
 
-section-title {
+.section-title {
     font-family: Verdana;
     font-size: 38px;
     margin-top: 20px;
@@ -118,24 +118,24 @@ section-title {
     display: inline-block;
 }
 
-blog-posts {
+.blog-posts {
     text-align: center;
 }
 
-blog-post {
-    width: 1200px;
+.blog-post {
+    width: 120px;
     margin: 0 auto 30px auto;
     background: #BBEFEF;
     overflow: auto;
 }
 
-blog-post img {
+.blog-post img {
     height: 300px;
     width: 40%;
     float: left;
 }
 
-blog {
+.blog {
     padding: 45px;
     float: left;
 }
