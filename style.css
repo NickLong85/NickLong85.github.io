@@ -5,29 +5,29 @@
 }
 
 body {
-    font-family: Verdana;
-    color: #082D49;
+    font-family: Helvetica;
+    color: #082D49
 }
 
 a {
     text-decoration: none;
-    color: #082D49;
+    color: #082D49
 }
 
+/* apply styles to <header> */
 header {
     padding: 35px 35px;
     background-color: linen;
 }
 
 header h1 {
-    font-family: Verdana;
+    font-family: Georgia;
     font-weight: bold;
     font-size: 36px;
     color: #082D49;
     margin: 0;
     display: inline;
 }
-
 header a {
     text-decoration: none;
     color: #082D49;
@@ -35,7 +35,7 @@ header a {
 
 .button {
     background-color: #082D49;
-    font-family: Verdana;
+    font-family: Georgia;
     color: white;
     padding: 15px 15px;
     text-align: center;
@@ -49,7 +49,7 @@ header a {
 
 .button:hover {
     background-color: #031119;
-    font-family: Verdana;
+    font-family: Georgia;
     color: white;
     padding: 15px 15px;
     text-align: center;
@@ -72,6 +72,7 @@ header a {
     filter: contrast(200%) brightness(40%);
 }
 
+/* Hero Style Start */
 .intro {
     background-image: url("https://raw.githubusercontent.com/NickLong85/LiNC/refs/heads/master/Background.jpg");
     height: 475px;
@@ -80,6 +81,7 @@ header a {
     background-size: cover;
     padding-left: 300px;
     padding-right: 150px;
+
 }
 
 .intro img {
@@ -106,12 +108,14 @@ header a {
     text-align: left;
 }
 
+/* Hero Style end */
+
 section {
     padding: 60px;
 }
 
 .section-title {
-    font-family: Verdana;
+    font-family: Georgia;
     font-size: 38px;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -131,20 +135,21 @@ section {
 }
 
 .blog-post img {
-    height: 300px;
+    height:300px;
     width: 40%;
     float: left;
 }
 
 .blog {
     padding: 45px;
+    float: left;
     width: 60%;
     text-align: left;
 }
 
 .blog h3 {
     font-weight: bold;
-    font-family: Verdana;
+    font-family: Georgia;
     font-size: 32px;
     margin-bottom: 8px;
 }
