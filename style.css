@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Helvetica;
+    font-family: Georgia;
     color: #082D49
 }
 
@@ -23,7 +23,7 @@ header {
 header h1 {
     font-family: Georgia;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 38px;
     color: #082D49;
     margin: 0;
     display: inline;
